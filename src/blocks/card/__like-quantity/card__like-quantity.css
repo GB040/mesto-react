@@ -1,0 +1,9 @@
+.card__like-quantity {
+  position: absolute;
+  bottom: 12px;
+  right: 28px;
+  color: #000000;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+}

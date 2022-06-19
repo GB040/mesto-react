@@ -1,0 +1,11 @@
+.popup__close_type_form-popup {
+  top: -28.3px;
+  right: -28.3px;
+}
+
+@media all and (max-width: 400px) {
+	.popup__close_type_form-popup {
+    top: -20.3px;
+    right: -20.3px;
+  }
+}

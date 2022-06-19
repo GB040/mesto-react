@@ -1,0 +1,33 @@
+.profile__container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-right: 30px;
+  background-color: #545454;
+  border-radius: 50%;
+}
+  
+.profile__container::before {
+  content: '';
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+  
+.profile__container:hover::before {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, .5);
+  transition: background-color .2s linear;
+}
+  
+.profile__container:hover .profile__avatar-button {
+    display: block;
+}
+  
+@media all and (max-width: 628px) {
+  .profile__container {
+    margin: 0 auto 14px;
+  }
+}

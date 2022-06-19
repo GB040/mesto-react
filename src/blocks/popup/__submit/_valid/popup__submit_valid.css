@@ -1,0 +1,11 @@
+.popup__submit_valid { 
+    background-color: black;  
+    color: white;  
+    border: none;   
+}   
+  
+.popup__submit_valid:hover {   
+    background-color: rgba(0, 0, 0, 0.8);  
+    transition: .2s linear; 
+    cursor: pointer;  
+} 

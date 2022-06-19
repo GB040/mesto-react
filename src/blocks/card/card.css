@@ -1,0 +1,14 @@
+.card { 
+  position: relative; 
+} 
+
+@media all and (max-width: 520px) { 
+	.card { 
+    margin-bottom: 20px; 
+  } 
+
+  .card:last-of-type { 
+    margin-bottom: 0; 
+  } 
+} 
+
